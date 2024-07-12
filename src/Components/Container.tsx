@@ -3,8 +3,8 @@ import "./Container.scss";
 
 const Container = () => {
     return (
-        <div className="container">
-            <div className="container__card">
+        <div className="container"> {/* Bloque */}
+            <div className="container__card"> 
             <div className="card">
                 <a href="#" className="card__thumbnail">
                     <img src="./logo192.png" alt="" className="card__img"/>
@@ -12,17 +12,18 @@ const Container = () => {
                 <div className="card__text">
                     <h3 className="card__title">
                         <a href="#" className="card__link">Lorem ipsum </a>
+                    </h3>
                         <p className="card__extracto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minus aut architecto, amet tempore aspernatur quis enim odio, magnam pariatur repellat optio laudantium sed similique necessitatibus autem eveniet! Reiciendis, a?</p>
 
                         <a href="#" className="button button--absolute">
                             <span className="button__text">Ver mas</span>
                             <i className="button__icon"></i>
                         </a>
-                    </h3>
+                    
                 </div>
             </div>
         </div>
-            <div className="card"> 
+            <div className="card"> {/* Bloque */}
 				<a href="#" className="card__thumbnail">
 					<img className="card__img" src="./logo192.png" alt=""/>
 				</a>
