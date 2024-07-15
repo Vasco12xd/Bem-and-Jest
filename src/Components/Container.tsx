@@ -1,5 +1,5 @@
 import React from "react";
-import { LuShoppingCart , LuArrowRight  } from "react-icons/lu";
+import { LuShoppingCart, LuArrowRight } from "react-icons/lu";
 import "./Container.scss";
 
 const Container = () => {
@@ -64,7 +64,7 @@ const Container = () => {
         </h2>
         <a href="#" role="button" className="button button--verde">
           <span className="button__text">Comprar</span>
-          <LuShoppingCart/>
+          <LuShoppingCart />
         </a>
       </div>
     </div>
