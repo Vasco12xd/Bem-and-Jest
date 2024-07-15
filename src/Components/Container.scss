@@ -1,29 +1,29 @@
-*{
-    margin: 0;  
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
+a:hover {
+	text-decoration: underline;
 }
 
-.container{
-    max-width: 1000px;
-    width: 90%;
-    margin: 0 auto;
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
 }
 
-.container__card{
-    margin: 70px 0;
+.container__card {
+	margin: 70px 0;
 }
 
-.card{
-    background: #FFF;
+.card {
+	background: #FFF;
 	border-radius: 15px;
 	padding: 20px;
 	display: flex;
@@ -43,8 +43,8 @@ a:hover{
 
 .card__img {
 	width: 100%;
-    vertical-align: top;
-    height: 100%;
+	vertical-align: top;
+	height: 100%;
 }
 
 .card__title {
@@ -52,10 +52,10 @@ a:hover{
 	font-size: 30px;
 	font-weight: normal;
 	margin-bottom: 20px;
-} 
+}
 
-.card__link{
-    color:#000;
+.card__link {
+	color: #000;
 }
 
 .card__extracto {
@@ -64,7 +64,7 @@ a:hover{
 	margin-bottom: 20px;
 }
 
-.button{
+.button {
 	border: none;
 	min-width: 180px;
 	height: 50px;
@@ -81,13 +81,13 @@ a:hover{
 	transition: .3s ease all;
 }
 
-.button__text{
-    font-weight: 300;
+.button__text {
+	font-weight: 300;
 }
 
-.button:hover{
-    background-color: #1B1881;
-    text-decoration: none;
+.button:hover {
+	background-color: #1B1881;
+	text-decoration: none;
 }
 
 .button--absolute {
@@ -104,13 +104,13 @@ a:hover{
 	background: #437837;
 }
 
-.phrase{
-    text-align: center;
+.phrase {
+	text-align: center;
 	margin: 70px 0;
 }
 
-.phrase__text{
-    margin-bottom: 20px;
+.phrase__text {
+	margin-bottom: 20px;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;

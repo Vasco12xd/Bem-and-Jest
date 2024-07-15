@@ -1,28 +1,27 @@
-.nav{
-    background:slateblue;
+.nav {
+    background: slateblue;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.nav__logo{
+.nav__logo {
     height: 100%;
     background: white;
 }
 
-.nav__img{
+.nav__img {
     height: 100%;
 }
 
 //No funciona el modificador si el modificador esta arriba del elemento
-.nav__link{
+.nav__link {
     color: white;
     text-decoration: none;
     margin-left: 12px;
 }
 
-.nav__link--active{
+.nav__link--active {
     background-color: green;
 }
-
